@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>AhnB Home</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p id='pageHeader'>Biology Major | Computational Biology | <b style ='color:#B3A369'>Georgia</b> Institute of <b style ='color:#B3A369'>Tech</b>nology</p>
+
+        <section id = 'navigationBar'>
+            <div class="navigationButton">
+                <button type="button" class = 'nb' id="homeButton">HOME</button>
+            </div>
+            <div class="navigationButton">
+                <button type="button" class = 'nb' id="aboutButton">ABOUT</button>
+            </div>
+            <div class="navigationButton">
+                <button type="button" class = 'nb' id="projectsButton">CURRENT PROJECTS</button>
+            </div>
+            <div class="navigationButton" id='dropdown'>
+                <button type="button" class = 'nb' id="linksButton">LINKS</button>
+                <div class="dropdowncontent">
+                    <div class="dropdownbox">
+                        <a class='link' href="https://www.github.com">GITHUB</a>
+                    </div>
+                    <div class="dropdownbox">
+                        <a class='link' href="https://www.canvas.gatech.edu">CANVAS</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="subheader" id = "homeSubHeader">
+                Home Page
+            </div>
+            <div class="subheader" id = "aboutSubHeader">
+                About
+            </div>
+            <div class="subheader" id = "projectsSubHeader">
+                Current Projects
+            </div>
+        </section>
+
+        <main id = 'main'>
+            <section id = 'home'>
+                <div>
+                    <div id = 'homeText'>
+                        Biologist <br>
+                        Computer Scientist <br>
+                        Scholar
+                    </div>
+                </div>
+            </section>
+            <section id = 'aboutMe'>
+                <div class="content">
+                    <div class="text">
+                        He is a third-year undergrauate at Georgia Tech and
+                        an aspiring computational biologist tackling the next
+                        challenges in medical science.
+                        Follow his professional and personal journey as a student, scientist,
+                        soccer player, and Asian American.
+                    </div>
+                    <div id='imageHeadshot'>
+                        <img src="#" alt="headshot">
+                    </div>
+                </div>
+                <div class="timeline">
+                    <p>asdf</p>
+                </div>
+            </section>
+
+
+            <section id = 'projects'>
+                <div class="content" id='project'>
+                    <div class="projectHeader">
+                        Biology
+                    </div>
+                    <div class="projectContent">
+                        <img src="MIP_20200205_355_Iba1_slide_1_1_CA100.jpg" class='projectImage' alt="img">
+                        <div class="projectText">
+                            <b>Microglia dynamics:</b> the project aims to
+                            understand microglial activation in Alzheimer's Disease
+                            and use bio-regulating molecules to control microglial
+                            activation in hopes of improving physiological outcomes.
+                            Cell cultures and mouse animal models are used to
+                            test the effects of various cytokine inhibitors
+                            in microglial inflammatory pathways and examine
+                            the impact on neuronal viability. Results are characterized
+                            by quantifying levels of protein expression. Analysis
+                            is conducted using computational tools such as
+                            MATLAB, ImageJ, and Zen Blue.
+                        </div>
+                    </div>
+                    <!-- <div class="projectContent">
+                        <img src="#" alt="image" class='projectImage'>
+                        <div class="projectText">
+                            <b>Competition in Plant Ecology: </b> the project
+                            characterized and analyzed the effect of inter-
+                            and intra-specific
+                            competition between plant crops. Wheat and radish
+                            seedlings were planted at varying densities in soil,
+                            and change in biomass were compared. Data visualization
+                            and significance were conducted in R Studio.
+                        </div>
+                    </div> -->
+                    <div class="projectHeader">
+                        Computer Science
+                    </div>
+                    <div class="projectContent">
+                        <img src="Welcomepage_hover.png" alt="img" class='projectImage'>
+                        <div class="projectText">
+                            <p><b>Mental Wealth:</b> the project is a Facebook Instant
+                            Game developed with a HTML/CSS/JavaScript front-end
+                            and JavaScript back-end. The game incorporates a
+                            quiz that gives mental health diagnosises amid the
+                            COVID-19 crisis. Benjamin works on a team of Emory and
+                            Georgia Tech students and manages the front-end and
+                            back-end programming for the project.</p>
+                        </div>
+                    </div>
+                    <!-- <div class="projecctContent">
+                            <img src="#" alt="img" class='projectImage'>
+                        <div class="projectText">
+                            <p><b>MP3 Player:</b> the project is a computer mp3 player
+                            build using Python. The mp3 player takes in a folder
+                            of mp3 files and launches a GUI (tkinter). Features
+                            include a displayed playlist, shuffle, and queue.
+                        </div>
+                    </div> -->
+                </div>
+                <div id='projectSkills'>
+                    <div>
+                        <h3 style="text-align: center">Programming Languages</h3>
+                        <table id="programmingTable">
+                            <tr>
+                                <td>Language</td>
+                                <td>Python</td>
+                                <td>Java</td>
+                                <td>MATLAB</td>
+                                <td>ImageJ</td>
+                                <td>R</td>
+                            </tr>
+                            <tr>
+                                <td>Start Date</td>
+                                <td>January 2019</td>
+                                <td>August 2019</td>
+                                <td>January 2019</td>
+                                <td>January 2019</td>
+                                <td>January 2020</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <footer></footer>
+
+            <script src = 'core.js'>
+            </script>
+            <script src="aboutPage.js">
+            </script>
+            <script src = 'homePage.js'>
+            </script>
+            <script src = 'projectsPage.js'>
+            </script>
+        </main>
+    </body>
+</html>
