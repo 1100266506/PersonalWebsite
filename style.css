@@ -97,7 +97,7 @@ body {
 
 #homeText {
     float : center;
-    font-size: 800%;
+    font-size: 700%;
     text-align: center;
     margin : 8%;
     letter-spacing: 5px;
@@ -140,24 +140,23 @@ body {
     float : left;
     width : 30%;
 }
+#programmingLanguages {
+    display: inline-block;
+    width : 100%;
+}
 
 .projectItem:hover, #projectLanguages:hover {
     background-color: #B3A369;
 }
-#programmingTable {
-    text-align: center;
-    margin-left: auto;
-    margin-right : auto;
-    border-collapse: collapse;
-}
 
 .programmingData {
     font-size: 20pt;
+    float : left;
+    width : 12.5%;
+    text-align: center;
 }
-
-.title {
-    font-size : 20pt;
-    margin-top : 20px;
+.programmingData:hover {
+    background-color : white;
 }
 
 .content {
@@ -168,6 +167,10 @@ body {
 
 /*BOTTOM CONTENT*/
 footer {
+    margin-top: 1%;
     text-align: center;
     color : black;
+}
+.footerText {
+    font-size: 200%;
 }
