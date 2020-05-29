@@ -18,7 +18,7 @@
 
 #navigationBar {
     background-color: #335161;
-    height : 60px;
+    height : 70px;
     padding-top: 15px;
 }
 .navigationButton {
@@ -41,7 +41,7 @@
     background-color : #335161;
     border : none;
     width : 200px;
-    height : 40px;
+    height : 50px;
     font-size: 125%;
 }
 #dropdown {
@@ -59,7 +59,7 @@
 }
 .dropdownbox {
     margin : 10px;
-    height : 40px;
+    height : 50px;
     border-style : solid;
     border-bottom : white;
     border-left: white;
@@ -79,6 +79,7 @@
     text-align : center;
     font-weight: bold;
     margin : 20px;
+    color : black;
 }
 body {
     background-color: #E5E5E5;
@@ -102,6 +103,7 @@ body {
     margin : 5%;
     letter-spacing: 5px;
     font-style: oblique;
+    color : black;
 }
 #aboutMeText {
     margin-left: 5%;
@@ -225,6 +227,15 @@ body {
     float : left;
     width : 30%;
 }
+.projectDetails {
+    display : none;
+    font-size: 10%;
+
+}
+.projectContent:hover .projectDetails{
+    display : block;
+}
+
 #programmingLanguages {
     display: inline-block;
     width : 100%;
@@ -249,6 +260,7 @@ body {
     margin-left : 5%;
     margin-right: 5%;
     text-align: center;
+    color : black;
 }
 
 /*BOTTOM CONTENT*/
