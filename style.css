@@ -207,7 +207,7 @@ body {
     float : left;
     text-align: center;
     width : 35%;
-    margin-top : 3%;
+    margin-top : 0%;
     margin-left : 10%;
     margin-right : 5%;
     padding : 1%;
@@ -227,8 +227,12 @@ body {
     float : left;
     width : 30%;
 }
+.projectTextTitle {
+    font-weight: bold;
+}
 .projectDetails {
     display : none;
+    text-align : left;
     font-size: 10%;
 
 }
