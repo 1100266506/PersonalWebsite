@@ -48,6 +48,8 @@
 }
 #dropdown {
     overflow: hidden;
+    position:absolute;
+    margin-left: 50%;
 }
 .dropdowncontent {
     display : none;
