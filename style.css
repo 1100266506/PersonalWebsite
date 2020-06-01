@@ -7,6 +7,7 @@
                     -.5px -.5px 0 #B3A369;
 }
 #pageHeader {
+    width : auto;
     text-align: center;
     font-size: 200%;
     color : black;
@@ -20,6 +21,7 @@
     background-color: #335161;
     height : 70px;
     padding-top: 15px;
+    width : auto;
 }
 .navigationButton {
     border: none;
