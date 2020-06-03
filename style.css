@@ -262,6 +262,9 @@ body {
 .programmingData:hover {
     background-color : white;
 }
+#programmingMini {
+    font-size: 75%;
+}
 
 .content {
     background-color: #f5f5f5;
