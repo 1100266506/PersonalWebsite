@@ -15,12 +15,11 @@
 #navigationBar {
     position: relative;
     background-color: #335161;
-    height : 3vw;
+    height : 2vw;
     width : 100%;
 }
 .navigationButton {
     position : relative;
-    top : 20%;
     border: none;
     color : white;
     text-decoration: none;
@@ -40,7 +39,6 @@
 }
 #dropdown {
     position:relative;
-    top : 20%;
     border: none;
     background-color: #335161;
     color : white;
