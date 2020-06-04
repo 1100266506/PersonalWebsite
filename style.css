@@ -15,7 +15,7 @@
 #navigationBar {
     position: relative;
     background-color: #335161;
-    height : 2vw;
+    height: 3vw;
     width : 100%;
 }
 .navigationButton {
@@ -26,6 +26,7 @@
     margin-left: 5%;
     text-align : center;
     float: left;
+    margin-top : .5vw;
 }
 .nb:hover {
     background-color: #B3A369;
@@ -40,6 +41,7 @@
 #dropdown {
     position:relative;
     border: none;
+    margin-top: .5vw;
     background-color: #335161;
     color : white;
     text-decoration: none;
