@@ -53,20 +53,26 @@
     margin-left: 5%;
     text-align : center;
     float: left;
+    font-family: inherit;
 }
 .dropdowncontent {
     display : none;
-    width : 100%;
-    /* margin : 10px; */
+    width : 150%;
     text-align: center;
+    position : absolute;
+    background-color : #335161;
 }
 .link {
     color : white;
     text-decoration: none;
     font-size: 1.5vw;
+    float: left;
+    text-align: center;
+    width : 100%;
+    font-family: Arial, sans-serif;
 }
 .dropdownbox {
-    /* margin : 10px; */
+    font-family: inherit;
     border-style : solid;
     border-bottom : white;
     border-left: white;
@@ -78,6 +84,7 @@
 }
 #dropdown:hover .dropdowncontent{
     display : grid;
+    font-family: inherit;
 }
 
 /*CORE CONTENT*/
