@@ -2,6 +2,7 @@
 function buildHome() {
     buildBlank()
     addElement(homeContainer);
+    addElement(backgroundContainer);
 }
 
 homeButton.onclick = function() {buildHome()};

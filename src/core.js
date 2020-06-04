@@ -11,6 +11,8 @@ const projectsContainer = document.getElementById('projects');
 const projectsSubHeader = document.getElementById('projectsSubHeader');
 const projectsButton = document.getElementById('projectsButton');
 
+const backgroundContainer = document.getElementById('homebackground');
+
 
 function addElement(elmt) {
     elmt.style.display = '';
@@ -29,5 +31,7 @@ function buildBlank() {
 
     removeElement(projectsContainer);
     removeElement(projectsSubHeader);
+
+    removeElement(backgroundContainer);
 }
 //******************************************************************************

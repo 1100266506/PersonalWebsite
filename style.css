@@ -1,23 +1,19 @@
 /*TOP SECTION*/
 .specialHeader {
     color:#B3A369;
-    text-shadow : -.5px .5px 0 #B3A369,
-                    .5px .5px 0 #B3A369,
-                    .5px -.5px 0 #B3A369,
-                    -.5px -.5px 0 #B3A369;
+    font-weight: 600;
 }
 #pageHeader {
+    position : relative;
     width : 100%;
     text-align: center;
     font-size: 2vw;
     color : black;
-    text-shadow : -.5px .5px 0 #000,
-                    .5px .5px 0 #000,
-                    .5px -.5px 0 #000,
-                    -.5px -.5px 0 #000;
+    font-weight : 600;
 }
 
 #navigationBar {
+    position: relative;
     background-color: #335161;
     height : 3vw;
     width : 100%;
@@ -96,7 +92,6 @@
 }
 body {
     background-color: #E5E5E5;
-    position : relative;
 }
 
 #main {
@@ -106,15 +101,29 @@ body {
 #core {
     float : center;
 }
-
+#homebackground {
+    background-image: url("Convocation9-min.jpg");
+    background-size: cover;
+    background-position: top;
+    position : absolute;
+    width : 100%;
+    height : 100%;
+    filter : grayscale(20%) blur(2px) brightness(50%);
+}
 #homeText {
+    position : absolute;
     float : center;
     font-size: 5vw;
     text-align: center;
-    margin : 5%;
+    margin-top : 7%;
+    width : 100%;
     letter-spacing: 5px;
     font-style: oblique;
-    color : black;
+    color : white;
+    text-shadow : -.1vw .1vw 0 white,
+                    .1vw .1vw 0 white,
+                    .1vw -.1vw 0 white,
+                    -.1vw -.1vw 0 white;
 }
 #aboutMeText {
     margin-left: 5%;
