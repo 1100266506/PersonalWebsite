@@ -8,54 +8,35 @@
     </head>
 
     <body>
-        <p id='pageHeader'>Benjamin Ahn | Computational Biology | <b class="specialHeader">Georgia</b> Institute of <b class="specialHeader">Tech</b>nology</p>
-        <div id='homebackground'></div>
         <section id = 'navigationBar'>
-            <div class="navigationButton">
-                <button type="button" class = 'nb' id="homeButton">HOME</button>
+            <button id="homeButton">
+                <p id='pageHeader'>Benjamin Ahn | Computational Biology | <b class="specialHeader">Georgia</b> Institute of <b class="specialHeader">Tech</b>nology</p>
+            </button>
+            <div class="navigationButton" id='linkHolder'>
+                <button type="button" class = 'nb' id="linksButton">CONTACT</button>
             </div>
             <div class="navigationButton">
-                <button type="button" class = 'nb' id="aboutButton">ABOUT</button>
+                <button type="button" class = 'nb' id="projectsButton">RESUME</button>
             </div>
             <div class="navigationButton">
                 <button type="button" class = 'nb' id="projectsButton">PROJECTS</button>
             </div>
-            <div id='dropdown'>
-                <button type="button" class = 'nb' id="linksButton">CONTACT</button>
-                <div class="dropdowncontent">
-                    <div class="dropdownbox">
-                        <a class='link' href="https://www.github.com" target="_blank">GITHUB</a>
-                    </div>
-                    <div class="dropdownbox">
-                        <a class='link' href="https://www.linkedin.com/in/benjamin-a-ba074a125/" target="_blank">LINKEDIN</a>
-                    </div>
-                </div>
+            <div class="navigationButton">
+                <button type="button" class = 'nb' id="aboutButton">ABOUT</button>
             </div>
         </section>
 
-        <section>
-            <div class="subheader" id = "homeSubHeader">
-                Home Page
-            </div>
-            <div class="subheader" id = "aboutSubHeader">
-                About
-            </div>
-            <div class="subheader" id = "projectsSubHeader">
-                Projects
-            </div>
-        </section>
+        <div id = 'homeText'>
+            Biologist <br>
+            Computer Scientist <br>
+            Scholar
+        </div>
 
         <main id = 'main'>
-
-            <section id = 'home'>
-
-                <div id = 'homeText'>
-                    Biologist <br>
-                    Computer Scientist <br>
-                    Scholar
-                </div>
-            </section>
             <section id = 'aboutMe'>
+                <div class="subheader" id = "aboutSubHeader">
+                    About
+                </div>
                 <div class="content">
                     <div id="aboutMeText">
                         He is a third-year undergrauate at Georgia Tech and
@@ -104,6 +85,9 @@
 
 
             <section id = 'projects'>
+                <div class="subheader" id = "projectsSubHeader">
+                    Projects
+                </div>
                 <div class="content" id='project'>
                     <div class="projectItem">
                         <div class="projectHeader">

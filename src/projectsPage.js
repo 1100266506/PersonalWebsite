@@ -1,5 +1,4 @@
 function buildProjects() {
-    buildBlank();
     addElement(projectsSubHeader);
     addElement(projectsContainer);
 }
