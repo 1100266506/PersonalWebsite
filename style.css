@@ -63,23 +63,29 @@ html, body {
     font-size: 2vw;
     text-align : center;
     font-weight: bold;
-    color : #335161;
+    /* color : #335161; */
     font-family: monospace;
-    position : absolute;
     width : 100%;
     margin : auto;
 }
 
 section {
-    /* background-color : #335161; */
-    background-color: white;
+    background-color : #335161;
     padding-top : 3%;
-    color : black;
+    color : white;
 }
-/* section:hover {
+section:hover{
     background-color : white;
     color : black;
-} */
+}
+#navigationBar:hover ~ #homeText {
+    background-color : white;
+    color : black;
+}
+#backgroundImage:hover ~ #homeText {
+    background-color : white;
+    color : black;
+}
 #home {
     height : 100%;
     width : 100%;
@@ -104,7 +110,7 @@ section {
     margin-left : 60%;
     width : 40%;
     height : 100%;
-    filter : blur(1.5px) hue-rotate(163deg) saturate(30%) brightness(100%);
+    /* filter : blur(1.5px) hue-rotate(163deg) saturate(30%) brightness(100%); */
 }
 #homeLarge {
     font-size: 5vw;
@@ -119,10 +125,12 @@ section {
     font-weight : 100;
 }
 /**********************ABOUT*/
+#navigationBar:hover ~ #about {
+    background-color : white;
+    color : black;
+}
 #about {
-    height : 50%;
-    margin-top:25%;
-    margin-bottom : 25%;
+    height : 100%;
 }
 #aboutMeLeft {
     float : left;
@@ -182,77 +190,43 @@ hr {
     background-color: #335161;
 }
 /*******************PROJECT*/
-#project {
-    display: inline-block;
+#navigationBar:hover ~ #projects {
+    background-color : white;
+    color : black;
 }
-.projectHeader {
-    text-align: center;
-    font-size: 2vw;
-    letter-spacing: 4pt;
+#projects {
+    height :100%;
+    margin : auto;
 }
-.projectItem {
-    display : inline-block;
-    padding-bottom: 5%;
-    padding-top : 1%;
-}
-.imageContainer {
-    display: inline-block;
+.project {
     float : left;
+    width : 33%;
     text-align: center;
-    width : 35%;
-    margin-top : 0%;
-    margin-left : 10%;
-    margin-right : 5%;
-    padding : 1%;
+}
+.project:hover {
+    background-color : #B3A369;
 }
 .projectImage {
-    display : inline-block;
-    float : left;
-    margin-left : 10%;
-    margin-right: 10%;
-    width: 70%;
-    height : 70%;
+    margin : auto;
+    height : 15vw;
+    width : 50%;
+}
+.projectTitle {
+    position : relative;
+    font-family: monospace;
+    font-weight: bold;
+    font-size : 1vw;
 }
 .projectText {
-    margin-left : 4%;
-    margin-right : 4%;
-    font-size: 1.5vw;
-    float : left;
-    width : 30%;
+    position : relative;
 }
-.projectTextTitle {
-    font-weight: bold;
-}
-.projectDetails {
-    display : none;
-    text-align : left;
-    font-size: 0.1vw;
-
-}
-.projectContent:hover .projectDetails{
-    display : block;
-}
-
-#programmingLanguages {
-    display: inline-block;
+#row1 {
     width : 100%;
 }
-
-.projectItem:hover, #projectLanguages:hover {
-    /* background-color: #B3A369; */
-}
-
-.programmingData {
-    font-size: 1.5vw;
-    float : left;
-    width : 12.5%;
-    text-align: center;
-}
-.programmingData:hover {
-    /* background-color : white; */
-}
-#programmingMini {
-    font-size: 1.5vw;
+/********************RESUME*/
+#navigationBar:hover ~ #resume {
+    background-color : white;
+    color : black;
 }
 #resume {
     height : 100%;
