@@ -20,13 +20,14 @@ html, body {
     font-family : monospace;
 }
 #homeButton {
+    margin-left : 2%;
     color : white;
     background-color : #335161;
     border : none;
     max-width : 50%;
 }
 #navigationBar {
-    position: relative;
+    position: fixed;
     background-color: #335161;
     height: auto;
     width : 100%;
@@ -53,7 +54,7 @@ html, body {
     letter-spacing: 0.2vw;
 }
 #linkHolder {
-    margin-right : 5%;
+    margin-right : 2%;
 }
 
 /*CORE CONTENT*/
@@ -73,16 +74,31 @@ body {
     border-style: solid;
     border-color: black;
 }
-
 #homeText {
     height : 100%;
-    float : center;
+    font-family : monospace;
+}
+#homeTextHolder {
+    position : absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left : 10%;
+    margin-right : 10%;
+}
+#homeLarge {
     font-size: 5vw;
     text-align: left;
     letter-spacing: 5px;
     color : black;
     font-weight: 300;
-    font-family : monospace;
+}
+#homeSmall {
+    font-size : 2vw;
+    text-align : left;
+    letter-spacing : 3px;
+    color : black;
+    font-weight : 100;
 }
 #aboutMeText {
     margin-left: 5%;
