@@ -3,6 +3,7 @@ html, body {
     height : 100%;
     margin : 0;
     color : black;
+    background-color: white;
 }
 .specialHeader {
     color:#B3A369;
@@ -62,17 +63,26 @@ html, body {
     font-size: 2vw;
     text-align : center;
     font-weight: bold;
-    color : black;
-    margin-top : 1vw;
+    color : #335161;
+    font-family: monospace;
+    position : absolute;
+    width : 100%;
+    margin : auto;
 }
-body {
+
+section {
+    /* background-color : #335161; */
     background-color: white;
+    padding-top : 3%;
+    color : black;
 }
+/* section:hover {
+    background-color : white;
+    color : black;
+} */
 #home {
     height : 100%;
     width : 100%;
-    border-style: solid;
-    border-color: black;
 }
 #homeText {
     height : 100%;
@@ -100,36 +110,77 @@ body {
     font-size: 5vw;
     text-align: left;
     letter-spacing: 5px;
-    color : black;
     font-weight: 300;
 }
 #homeSmall {
     font-size : 2vw;
     text-align : left;
     letter-spacing : 3px;
-    color : black;
     font-weight : 100;
 }
 /**********************ABOUT*/
-#aboutMeText {
-    margin-left: 10%;
-    margin-right : 10%;
-    margin-top : 7%;
-    font-size: 1.5vw;
-    float : left;
-    width : 30%;
+#about {
+    height : 50%;
+    margin-top:25%;
+    margin-bottom : 25%;
 }
-#aboutMeTextRight {
-    /* total width to 35% */
-    text-align: left;
-    margin-left : 10%;
-    margin-right : 10%;
-    margin-top : 5%;
-    font-size : 1.5vw;
+#aboutMeLeft {
     float : left;
-    width :30%;
+    margin-left : 15%;
+    width : 35%;
 }
-
+#aboutImage {
+    height : 50%;
+    margin-top: 25%;
+    margin-right: 25%;
+}
+#aboutMeRight {
+    position: relative;
+    font-family: monospace;
+    float : left;
+    width : 35%;
+    margin-right: 15%;
+    font-size: 1vw;
+}
+.aboutSpecial {
+    color : #B3A369;
+}
+#quote {
+    padding-top: 5%;
+    font-size: 2vw;
+    font-weight: 300;
+}
+#aboutTableRight {
+    font-family: monospace;
+    width : 55%;
+    margin: auto;
+    padding-top: 5%;
+}
+#researchTitle {
+    padding-top: 2%;
+    color : #335161;
+    font-weight: 900;
+}
+#tableTitle {
+    float : left;
+    width : 20%;
+    text-align: center;
+    font-size: 1vw;
+}
+#leftLine {
+    float :left;
+    width : 40%;
+}
+#rightLine {
+    float :left;
+    width : 40%;
+}
+hr {
+    color : #335161;
+    font-weight: 900;;
+    height : .25vw;
+    background-color: #335161;
+}
 /*******************PROJECT*/
 #project {
     display: inline-block;
@@ -188,7 +239,7 @@ body {
 }
 
 .projectItem:hover, #projectLanguages:hover {
-    background-color: #B3A369;
+    /* background-color: #B3A369; */
 }
 
 .programmingData {
@@ -198,10 +249,18 @@ body {
     text-align: center;
 }
 .programmingData:hover {
-    background-color : white;
+    /* background-color : white; */
 }
 #programmingMini {
     font-size: 1.5vw;
+}
+#resume {
+    height : 100%;
+}
+
+#contact {
+    height : 50%;
+    margin : auto;
 }
 
 /*BOTTOM CONTENT*/
@@ -210,8 +269,17 @@ body {
     flex-direction: column;
 }
 footer {
-    margin-top: 1%;
+    background-color: #335161;
     text-align: center;
-    color : black;
-    font-size : 1.5vw;
+    color : white;
+    font-size : 1vw;
+}
+.footerText {
+    margin : 0;
+
+}
+#footerContent {
+    height : 50%;
+    margin : auto;
+    padding : 1%;
 }

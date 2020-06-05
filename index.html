@@ -9,7 +9,7 @@
 
     <body>
         <div id='backgroundImage'></div>
-        <section id = 'navigationBar' class="navigationBarBar">
+        <div id = 'navigationBar' class="navigationBarBar">
             <button id="homeButton">
                 <p id='pageHeader'>Benjamin Ahn | School of Biological Sciences | <b class="specialHeader">Georgia</b> Institute of <b class="specialHeader">Tech</b>nology</p>
             </button>
@@ -25,9 +25,9 @@
             <div class="navigationButton">
                 <button type="button" class = 'nb' id="aboutButton">ABOUT</button>
             </div>
-        </section>
+        </div>
 
-        <div id = 'homeText'>
+        <section id = 'homeText'>
             <div id='homeTextHolder'>
                 <div id='homeLarge'>
                     Computational <br>
@@ -39,286 +39,316 @@
                 </div>
             </div>
 
-        </div>
+        </section>
 
-        <main id = 'main'>
-            <section id = 'aboutMe'>
-                <div class="subheader" id = "aboutSubHeader">
-                    About
+        <section id="about">
+            <div id="aboutHolder">
+                <div class="subheader">
+                    About Me
                 </div>
-                <div class="content">
-                    <div id="aboutMeText">
-                        More to come!
-                    </div>
-                    <div id="aboutMeTextRight">
-                        <ul>
-                            <li>Gold Scholar, Honors Program, GT</li>
-                            <li>Keynote speaker, Undergraduate Convocation 2019, GT</li>
-                            <li>Neuroinflammation Researcher, Wood Lab</li>
-                            <li>Co-founder & Programmer of <i>Mental Wealth</i> App</li>
-                            <li>Resident Assistant, GT Housing</li>
-                        </ul>
-                    </div>
+                <div>
+                    <div id="aboutMeTop">
+                        <div id="aboutMeLeft">
+                            <img id="aboutImage" src="./images/rsz_lab.jpg" alt="No Image Available">
+                        </div>
+                        <div id="aboutMeRight">
+                            <p id="quote">I've always been a scientist at heart</p>
+                            <p>
+                                I'm a third-year <b class="aboutSpecial">Biological
+                                    Sciences</b> Major, concentrating in
+                                    Computational Biology, at the <b class="aboutSpecial">
+                                        Georgia Institute of Technology</b>.
+                                        I currently research with the Wood Lab, Georgia Tech, where
+                                        I investigate the role of <b class="aboutSpecial">
+                                            microglia and neuroinflammation in
+                                            Alzheimer's Disease</b>. I work with cell cultures and mouse models
+                                            to modulate, control, and restore microglial function.
+                                        </p>
+                                        <div id='researchTitle'>
+                                            <div id="leftLine">
+                                                <hr>
+                                            </div>
+                                            <span id="tableTitle">
+                                                Research
+                                            </span>
+                                            <div id="rightLine">
+                                                <hr>
+                                            </div>
+                                        </div>
+                                        <div id="aboutTableRight">
+                                            <ul>
+                                                <li>Cell culturing</li>
+                                                <li>Western blotting</li>
+                                                <li>Mouse Microdissections</li>
+                                                <li>Immunocyto/Immunohistochemistry</li>
+                                                <li>Immunofluorescent Imaging</li>
+                                                <li>MATLAB, R, Python, Java, ImageJ</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-
-            <section id = 'projects'>
-                <div class="subheader" id = "projectsSubHeader">
-                    Projects
-                </div>
-                <div class="content" id='project'>
-                    <div class="projectItem">
-                        <div class="projectHeader">
-                            BIOLOGY
-                        </div>
-                        <div class="projectContent">
-                            <div class="imageContainer">
-                                <img src="./images/MIP_20200205_355_Iba1_slide_1_1_CA100.jpg" class='projectImage' alt="img">
-                            </div>
-                            <div class="projectText">
-                				<p class='projectTextTitle'>
-                				    Protein Expression of Microglia
-                				</p>
-                				<p class='projectTextText'>
-                				    characterize and quantify protein expression of microglia
-                				    cell cultures in Alzheimer's Disease
-                				</p>
-                                <div class='projectDetails'>
-                                    <!-- <ul>
-                                        <li>sacrifice mice and extract primary cortical neurons via mouse microdissections</li>
-                                        <li>treat microglia-neuron co-cultures with media conditions with lipopolysaccharide, TNFalpha, and/or IFNgamma</li>
-                                        <li>quantify Iba-1 and Arg-1 protein expression to determine microglia inflammation</li>
-                                        <li>Imaging conducted in Zen. Image processing conducted in ImageJ</li>
-                                        <li>Quantification conducted in MATLAB</li>
-                                    </ul> -->
-                                    <ul>
-                                        <li>Project Date : January 2019 - August 2019</li>
-                                        <li>Location : Wood Lab, Petit Institute of BioEngineering and Biotechnology</li>
-                                        <li>Wet-lab Skills : cell culturing, mouse neuron microdissections, westernblotting, immunocytochemistry, immunofluorescent imaging</li>
-                                        <li>Computational Skills : MATLAB, ImageJ, Zen, Image Studio LITE</li>
-                                        <li>Link:</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="projectContent">
-                            <div class="imageContainer">
-                                <img src="./images/rsz_microgliapic.jpg" class='projectImage' alt="img">
-                            </div>
-                            <div class="projectText">
-                                <div class="projectTextTitle">
-                                    Invivo Microglia Modulation & 2D Morphology Analysis
-                                </div>
-                                <div class="projectTextText">
-                                    modulate microglia activation via cytokine inhibitors,
-                                    quantify neuroinflammation using Maximum Intensity Projections
-                                </div>
-                                <div class="projectDetails">
-                                    <ul>
-                                        <li>Project Date : August 2019 - March 2019</li>
-                                        <li>Location : Wood Lab, Petit Institute of BioEngineering and Biotechnolgoy</li>
-                                        <li>Wet-lab Skills : IP injection, cryosectioning, immunhistochemistry, immunfluoresccent imaging </li>
-                                        <li>Computational Skills : MATLAB, ImageJ, Zen, Python, Java</li>
-                                        <li> <a href="https://github.com/1100266506/microglia_modulation_cytokineinhibitors.git" target="_blank">GITHUB</a>
-                                        </li>
-                                    </ul>
-
-                                </div>
-                                <!-- <br><b>2D Microglia Morphology Analysis:</b> the project
-                                used image-processing programs to scan Maximum Intensity Projection
-                                (MIP) images from 3D zstacks and
-                                quantify microglia
-                                activation using morphological features.
-                                3D zstacks were images of sagital brain samples from mice
-                                treated with IP injections of LPS, nor-NOHA, and/or SB.
-                                Characteristics such as branch length, ciruclarity,
-                                and ramification index via Sholl Analysis
-                                served as features for measuring microglial activation.
-                                Image processing was conducted in ImageJ and data
-                                visualization was conducted in MATLAB. -->
-                            </div>
-                        </div>
-                        <div class="projectContent">
-                            <div class="imageContainer">
-                                <img src="./images/All_Data_competition_plot.jpeg" alt="image" class='projectImage'>
-                            </div>
-                            <div class="projectText">
-                				<div class='projectTextTitle'>
-                				    Competition in Plant Ecology
-                				</div>
-
-                				<div class='projectTextText'>
-                				    characterize and analyze the effect of inter-
-                				    and intra-specific competition between plant crops
-                				</div>
-                                    <!-- <br><b>Competition in Plant Ecology: </b> the project
-                                    characterized and analyzed the effect of inter-
-                                    and intra-specific
-                                    competition between plant crops. Wheat and radish
-                                    seedlings were planted at varying densities in soil,
-                                    and plant biomass were compared. Data visualizations
-                                    and statistical analysis conducted in R. -->
-                                <div class='projectDetails'>
-                                    <ul>
-                                        <li>Date : January 2020 - May 2020</li>
-                                        <li>Location : School of Biological Sciences, Georgia Institute of Technology</li>
-                                        <li>Wet-lab Skills : plant biomass measurements, ecological experimental design</li>
-                                        <li>Computational Skills : R Studio</li>
-                                        <li> <a href="https://github.com/1100266506/ecology_plant_competition_analysis.git" target="_blank">GITHUB</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="projectContent">
-                            <div class="imageContainer">
-                                <img src="./images/CZItoolbox.png" alt="No Image Available" class='projectImage'>
-                            </div>
-                            <div class="projectText">
-                                <div class="projectTextTitle">
-                                    CZI Toolbox
-                                </div>
-                                <div class="projectTextText">
-                                    original scripts created to manage and batch-process CZI zstack image files
-                                </div>
-                                <div class="projectDetails">
-                                    <ul>
-                                        <li>Project Date : March 2020 - present</li>
-                                        <li>Location : Wood Lab, Petit Institute of BioEngineering and Biotechnology</li>
-                                        <li>Computational Skills : Python, Java, ImageJ</li>
-                                        <li> <a href="https://github.com/1100266506/CZI-toolbox.git" target="_blank">GITHUB</a></li>
-                                    </ul>
-                                </div>
-                                <!-- <br><b>CZI Toolbox: </b> the toolbox contains an arsenal
-                                of tools that enable batch processing of
-                                Carl Zeiss Image (CZI) files including renaming,
-                                folder organizing, background subtracting,
-                                and exporting z-stacks. All scripts are original and created
-                				by Benjamin Ahn in Java and Python -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="projectItem">
-                        <div class="projectHeader">
-                            COMPUTER SCIENCE
-                        </div>
-                        <div class="projectContent">
-                            <div class="imageContainer">
-                                <img src="./images/Welcomepage_hover.png" class='projectImage' alt="img">
-                            </div>
-                            <div class="projectText">
-                                <div class="projectTextTitle">
-                                    Mental Wealth
-                                </div>
-                                <div class="projectTextText">
-                                    Facebook Instant Game to diagnose mental health issues of users
-                                </div>
-                                <div class="projectDetails">
-                                    <ul>
-                                        <li>Project Date : May 2020 - present</li>
-                                        <li>Location : GT/Emory Hackathon</li>
-                                        <li>Computational Skills : HTML, CSS, JavaScript, Firebase, FBInstant API</li>
-                                        <li> <a href="https://github.com/1100266506/COVID_hackathon_FBInstantGame.git" target="_blank">GITHUB</a></li>
-                                    </ul>
-                                </div>
-                                <!-- <b>Mental Wealth:</b> the project is a Facebook Instant
-                                Game developed with a HTML/CSS/JavaScript front-end
-                                and JavaScript back-end. The game incorporates a
-                                quiz that gives mental health diagnosises amid the
-                                COVID-19 crisis. Benjamin works as the lead programmer,
-				managing the front-end design and functionality as well
-				as the back-end data storage. -->
-                            </div>
-                        </div>
-                        <div class="projectContent">
-                            <div class="imageContainer">
-                                <img src="./images/mp3_picture.png" alt="No Image Available" class='projectImage'>
-                            </div>
-                            <div class="projectText">
-                                <div class="projectTextTitle">
-                                    Desktop MP3 Player App
-                                </div>
-                                <div class="projectTextText">
-                                    an MP3 player application built for LINUX distributions.
-                                    Features include playlist display and shuffle.
-                                </div>
-                                <div class="projectDetails">
-                                    <ul>
-                                        <li>Project Date : May 2020 - June 2020</li>
-                                        <li>Location : Self project</li>
-                                        <li>Computational Skills : Python (tkinter), pygames API</li>
-                                        <li> <a href="https://github.com/1100266506/mp3_builderv2.git" target="_blank">GITHUB</a> </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="projectContent">
-                            <div class="imageContainer">
-                                <img src="#" alt="No Image Available" class='projectImage'>
-                            </div>
-                            <div class="projectText">
-                                <div class="projectTextTitle">
-                                    Music Downloader Application
-                                </div>
-                                <div class="projectTextText">
-                                    takes a text file of youtube searches and
-                                    takes the first search result, converts it to
-                                    an MP3, and downloads the file
-                                </div>
-                                <div class="projectDetails">
-                                    <ul>
-                                        <li>Project Date : September 2019</li>
-                                        <li>Computational Skills : Java (JavaFX)</li>
-                                        <li> <a href="https://github.com/1100266506/Music-Downloader.git" target="_blank">GITHUB</a> </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- closes content on project page -->
-            </section>
-
-            <section id="resume">
-                <div class="subheader" id = "resumeSubHeader">
-                    Resume
-                </div>
-                <div class="projectItem" id="programmingLanguages">
+        <section id = 'projects'>
+            <div class="subheader" id = "projectsSubHeader">
+                Projects
+            </div>
+            <div class="content" id='project'>
+                <div class="projectItem">
                     <div class="projectHeader">
-                        PROGRAMMING LANGUAGES <br>
-                        <p id="programmingMini">date started learning</p>
+                        BIOLOGY
                     </div>
                     <div class="projectContent">
-                        <p class='programmingData'>Python <br> January 2019</p>
-                        <p class='programmingData'>MATLAB <br> July 2019</p>
-                        <p class='programmingData'>Java <br> August 2019</p>
-                        <p class='programmingData'>R <br> January 2020</p>
-                        <p class='programmingData'>ImageJ <br> August 2019</p>
-                        <p class='programmingData'>HTML <br> May 2020</p>
-                        <p class='programmingData'>CSS <br> May 2020</p>
-                        <p class='programmingData'>JavaScript <br> May 2020</p>
+                        <div class="imageContainer">
+                            <img src="./images/MIP_20200205_355_Iba1_slide_1_1_CA100.jpg" class='projectImage' alt="img">
+                        </div>
+                        <div class="projectText">
+            				<p class='projectTextTitle'>
+            				    Protein Expression of Microglia
+            				</p>
+            				<p class='projectTextText'>
+            				    characterize and quantify protein expression of microglia
+            				    cell cultures in Alzheimer's Disease
+            				</p>
+                            <div class='projectDetails'>
+                                <!-- <ul>
+                                    <li>sacrifice mice and extract primary cortical neurons via mouse microdissections</li>
+                                    <li>treat microglia-neuron co-cultures with media conditions with lipopolysaccharide, TNFalpha, and/or IFNgamma</li>
+                                    <li>quantify Iba-1 and Arg-1 protein expression to determine microglia inflammation</li>
+                                    <li>Imaging conducted in Zen. Image processing conducted in ImageJ</li>
+                                    <li>Quantification conducted in MATLAB</li>
+                                </ul> -->
+                                <ul>
+                                    <li>Project Date : January 2019 - August 2019</li>
+                                    <li>Location : Wood Lab, Petit Institute of BioEngineering and Biotechnology</li>
+                                    <li>Wet-lab Skills : cell culturing, mouse neuron microdissections, westernblotting, immunocytochemistry, immunofluorescent imaging</li>
+                                    <li>Computational Skills : MATLAB, ImageJ, Zen, Image Studio LITE</li>
+                                    <li>Link:</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectContent">
+                        <div class="imageContainer">
+                            <img src="./images/rsz_microgliapic.jpg" class='projectImage' alt="img">
+                        </div>
+                        <div class="projectText">
+                            <div class="projectTextTitle">
+                                Invivo Microglia Modulation & 2D Morphology Analysis
+                            </div>
+                            <div class="projectTextText">
+                                modulate microglia activation via cytokine inhibitors,
+                                quantify neuroinflammation using Maximum Intensity Projections
+                            </div>
+                            <div class="projectDetails">
+                                <ul>
+                                    <li>Project Date : August 2019 - March 2019</li>
+                                    <li>Location : Wood Lab, Petit Institute of BioEngineering and Biotechnolgoy</li>
+                                    <li>Wet-lab Skills : IP injection, cryosectioning, immunhistochemistry, immunfluoresccent imaging </li>
+                                    <li>Computational Skills : MATLAB, ImageJ, Zen, Python, Java</li>
+                                    <li> <a href="https://github.com/1100266506/microglia_modulation_cytokineinhibitors.git" target="_blank">GITHUB</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <!-- <br><b>2D Microglia Morphology Analysis:</b> the project
+                            used image-processing programs to scan Maximum Intensity Projection
+                            (MIP) images from 3D zstacks and
+                            quantify microglia
+                            activation using morphological features.
+                            3D zstacks were images of sagital brain samples from mice
+                            treated with IP injections of LPS, nor-NOHA, and/or SB.
+                            Characteristics such as branch length, ciruclarity,
+                            and ramification index via Sholl Analysis
+                            served as features for measuring microglial activation.
+                            Image processing was conducted in ImageJ and data
+                            visualization was conducted in MATLAB. -->
+                        </div>
+                    </div>
+                    <div class="projectContent">
+                        <div class="imageContainer">
+                            <img src="./images/All_Data_competition_plot.jpeg" alt="image" class='projectImage'>
+                        </div>
+                        <div class="projectText">
+            				<div class='projectTextTitle'>
+            				    Competition in Plant Ecology
+            				</div>
+
+            				<div class='projectTextText'>
+            				    characterize and analyze the effect of inter-
+            				    and intra-specific competition between plant crops
+            				</div>
+                                <!-- <br><b>Competition in Plant Ecology: </b> the project
+                                characterized and analyzed the effect of inter-
+                                and intra-specific
+                                competition between plant crops. Wheat and radish
+                                seedlings were planted at varying densities in soil,
+                                and plant biomass were compared. Data visualizations
+                                and statistical analysis conducted in R. -->
+                            <div class='projectDetails'>
+                                <ul>
+                                    <li>Date : January 2020 - May 2020</li>
+                                    <li>Location : School of Biological Sciences, Georgia Institute of Technology</li>
+                                    <li>Wet-lab Skills : plant biomass measurements, ecological experimental design</li>
+                                    <li>Computational Skills : R Studio</li>
+                                    <li> <a href="https://github.com/1100266506/ecology_plant_competition_analysis.git" target="_blank">GITHUB</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="projectContent">
+                        <div class="imageContainer">
+                            <img src="./images/CZItoolbox.png" alt="No Image Available" class='projectImage'>
+                        </div>
+                        <div class="projectText">
+                            <div class="projectTextTitle">
+                                CZI Toolbox
+                            </div>
+                            <div class="projectTextText">
+                                original scripts created to manage and batch-process CZI zstack image files
+                            </div>
+                            <div class="projectDetails">
+                                <ul>
+                                    <li>Project Date : March 2020 - present</li>
+                                    <li>Location : Wood Lab, Petit Institute of BioEngineering and Biotechnology</li>
+                                    <li>Computational Skills : Python, Java, ImageJ</li>
+                                    <li> <a href="https://github.com/1100266506/CZI-toolbox.git" target="_blank">GITHUB</a></li>
+                                </ul>
+                            </div>
+                            <!-- <br><b>CZI Toolbox: </b> the toolbox contains an arsenal
+                            of tools that enable batch processing of
+                            Carl Zeiss Image (CZI) files including renaming,
+                            folder organizing, background subtracting,
+                            and exporting z-stacks. All scripts are original and created
+            				by Benjamin Ahn in Java and Python -->
+                        </div>
                     </div>
                 </div>
-            </section>
-
-            <section id='contact'>
-                <div class="subheader" id = "contactSubHeader">
-                    Contact Me
+                <div class="projectItem">
+                    <div class="projectHeader">
+                        COMPUTER SCIENCE
+                    </div>
+                    <div class="projectContent">
+                        <div class="imageContainer">
+                            <img src="./images/Welcomepage_hover.png" class='projectImage' alt="img">
+                        </div>
+                        <div class="projectText">
+                            <div class="projectTextTitle">
+                                Mental Wealth
+                            </div>
+                            <div class="projectTextText">
+                                Facebook Instant Game to diagnose mental health issues of users
+                            </div>
+                            <div class="projectDetails">
+                                <ul>
+                                    <li>Project Date : May 2020 - present</li>
+                                    <li>Location : GT/Emory Hackathon</li>
+                                    <li>Computational Skills : HTML, CSS, JavaScript, Firebase, FBInstant API</li>
+                                    <li> <a href="https://github.com/1100266506/COVID_hackathon_FBInstantGame.git" target="_blank">GITHUB</a></li>
+                                </ul>
+                            </div>
+                            <!-- <b>Mental Wealth:</b> the project is a Facebook Instant
+                            Game developed with a HTML/CSS/JavaScript front-end
+                            and JavaScript back-end. The game incorporates a
+                            quiz that gives mental health diagnosises amid the
+                            COVID-19 crisis. Benjamin works as the lead programmer,
+			managing the front-end design and functionality as well
+			as the back-end data storage. -->
+                        </div>
+                    </div>
+                    <div class="projectContent">
+                        <div class="imageContainer">
+                            <img src="./images/mp3_picture.png" alt="No Image Available" class='projectImage'>
+                        </div>
+                        <div class="projectText">
+                            <div class="projectTextTitle">
+                                Desktop MP3 Player App
+                            </div>
+                            <div class="projectTextText">
+                                an MP3 player application built for LINUX distributions.
+                                Features include playlist display and shuffle.
+                            </div>
+                            <div class="projectDetails">
+                                <ul>
+                                    <li>Project Date : May 2020 - June 2020</li>
+                                    <li>Location : Self project</li>
+                                    <li>Computational Skills : Python (tkinter), pygames API</li>
+                                    <li> <a href="https://github.com/1100266506/mp3_builderv2.git" target="_blank">GITHUB</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectContent">
+                        <div class="imageContainer">
+                            <img src="#" alt="No Image Available" class='projectImage'>
+                        </div>
+                        <div class="projectText">
+                            <div class="projectTextTitle">
+                                Music Downloader Application
+                            </div>
+                            <div class="projectTextText">
+                                takes a text file of youtube searches and
+                                takes the first search result, converts it to
+                                an MP3, and downloads the file
+                            </div>
+                            <div class="projectDetails">
+                                <ul>
+                                    <li>Project Date : September 2019</li>
+                                    <li>Computational Skills : Java (JavaFX)</li>
+                                    <li> <a href="https://github.com/1100266506/Music-Downloader.git" target="_blank">GITHUB</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section>
+            </div> <!-- closes content on project page -->
+        </section>
 
-            <footer>
-                Original Content and Web Development by Benjamin Ahn 2020
-            </footer>
+        <section id="resume">
+            <div class="subheader" id = "resumeSubHeader">
+                Resume
+            </div>
+            <div class="projectItem" id="programmingLanguages">
+                <div class="projectHeader">
+                    PROGRAMMING LANGUAGES <br>
+                    <p id="programmingMini">date started learning</p>
+                </div>
+                <div class="projectContent">
+                    <p class='programmingData'>Python <br> January 2019</p>
+                    <p class='programmingData'>MATLAB <br> July 2019</p>
+                    <p class='programmingData'>Java <br> August 2019</p>
+                    <p class='programmingData'>R <br> January 2020</p>
+                    <p class='programmingData'>ImageJ <br> August 2019</p>
+                    <p class='programmingData'>HTML <br> May 2020</p>
+                    <p class='programmingData'>CSS <br> May 2020</p>
+                    <p class='programmingData'>JavaScript <br> May 2020</p>
+                </div>
+            </div>
+        </section>
 
-            <script src = './src/core.js'>
-            </script>
-            <script src="./src/aboutPage.js">
-            </script>
-            <script src = './src/homePage.js'>
-            </script>
-            <script src = './src/projectsPage.js'>
-            </script>
-        </main>
+        <section id='contact'>
+            <div class="subheader" id = "contactSubHeader">
+                Contact Me
+            </div>
+        </section>
+
+        <footer>
+            <div id="footerContent">
+                <p class="footerText" id="line1">Original Content and Web Development</p>
+                <p class="footerText" id="line2">Benjamin Ahn 2020</p>
+            </div>
+        </footer>
+
+        <script src = './src/core.js'>
+        </script>
+        <script src="./src/aboutPage.js">
+        </script>
+        <script src = './src/homePage.js'>
+        </script>
+        <script src = './src/projectsPage.js'>
+        </script>
     </body>
 </html>
