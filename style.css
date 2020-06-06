@@ -245,7 +245,7 @@ ul {
 #resumeContent {
     margin-left:14%;
     margin-right : 14%;
-    margin-bottom : 4%;
+    padding-bottom : 5%;
     margin-top : 2%;
     padding-left : 1%;
     padding-right : 1%;
@@ -253,6 +253,8 @@ ul {
 }
 #resumeContent:hover {
     background-color : #B3A369;
+    padding-bottom :1%;
+    margin-bottom : 4%;
 }
 #resumeLink {
     text-decoration: none;
@@ -309,8 +311,10 @@ ul {
 /************************CONTACT*/
 #contact {
     padding-bottom : 1%;
+    height : 80%;
 }
 #contactContent {
+    padding-top : 5%;
     font-family: monospace;
     text-align: center;
 }
@@ -342,8 +346,8 @@ ul {
 
 /*BOTTOM CONTENT*/
 #footer {
+    height : 10%;
     font-family: monospace;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom : 0%;
+    padding-top : 1%;
 }
