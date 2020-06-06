@@ -4,6 +4,7 @@ html, body {
     margin : 0;
     color : black;
     background-color: white;
+    scroll-behavior: smooth;
 }
 .specialHeader {
     color:#B3A369;
@@ -19,6 +20,7 @@ html, body {
     font-size: 1vw;
     color : white;
     font-family : monospace;
+    margin-left: 2%;
 }
 #homeButton {
     margin-left : 2%;
@@ -53,6 +55,7 @@ html, body {
     font-size: 1vw;
     font-family : monospace;
     letter-spacing: 0.2vw;
+    text-decoration: none;
 }
 #linkHolder {
     margin-right : 2%;
@@ -68,6 +71,7 @@ html, body {
     width : 100%;
     text-transform: uppercase;
     letter-spacing: 10pt;
+    padding-top: 5%;
 }
 
 section {
