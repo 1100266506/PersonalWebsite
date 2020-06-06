@@ -66,7 +66,8 @@ html, body {
     /* color : #335161; */
     font-family: monospace;
     width : 100%;
-    margin : auto;
+    text-transform: uppercase;
+    letter-spacing: 10pt;
 }
 
 section {
@@ -171,17 +172,18 @@ section:hover{
 }
 #tableTitle {
     float : left;
-    width : 20%;
+    width : 30%;
     text-align: center;
     font-size: 1vw;
+    text-transform: uppercase;
 }
 #leftLine {
     float :left;
-    width : 40%;
+    width :35%;
 }
 #rightLine {
     float :left;
-    width : 40%;
+    width : 35%;
 }
 hr {
     color : #335161;
@@ -194,34 +196,38 @@ hr {
     background-color : white;
     color : black;
 }
-#projects {
-    height :100%;
-    margin : auto;
+#gridProjects {
+    overflow: auto;
+    padding-left : 10%;
+    padding-right : 10%;
+    padding-top : 5%;
+    padding-bottom : 5%;
 }
 .project {
+    color : black;
+    text-align: center;
     float : left;
     width : 33%;
-    text-align: center;
+    height : 60vh;
 }
 .project:hover {
     background-color : #B3A369;
 }
 .projectImage {
-    margin : auto;
-    height : 15vw;
+    margin-top : 3%;
     width : 50%;
 }
 .projectTitle {
-    position : relative;
     font-family: monospace;
     font-weight: bold;
     font-size : 1vw;
 }
-.projectText {
-    position : relative;
-}
-#row1 {
-    width : 100%;
+ul {
+    text-align: left;
+    font-family: monospace;
+    font-size: .5vw;
+    width : 85%;
+    margin : auto;
 }
 /********************RESUME*/
 #navigationBar:hover ~ #resume {
