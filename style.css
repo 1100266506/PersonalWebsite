@@ -146,6 +146,7 @@ section:hover{
     height : 50%;
     margin-top: 25%;
     margin-right: 25%;
+    width : 30vw;
 }
 #aboutMeRight {
     position: relative;
