@@ -242,10 +242,71 @@ ul {
     background-color : white;
     color : black;
 }
-#resume {
-    height : 100%;
+#resumeContent {
+    margin-left:14%;
+    margin-right : 14%;
+    margin-bottom : 4%;
+    margin-top : 2%;
+    padding-left : 1%;
+    padding-right : 1%;
+    padding-top : 1%;
+}
+#resumeContent:hover {
+    background-color : #B3A369;
+}
+#resumeLink {
+    text-decoration: none;
+    color : black;
+}
+.resumeItem {
+    margin-left : 5%;
+}
+.sectionItem {
+    float : left;
+    width : 100%;
+}
+.sectionHeader {
+    text-transform: uppercase;
+    letter-spacing: 3;
+    font-family: monospace;
+    font-size: 1.5vw;
+}
+.sectionSubheader {
+    font-weight: bold;
+    font-style: italic;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.sectionPosition {
+    font-weight: bold;
+    font-style: italic;
+    font-family: monospace;
+}
+.sectionTable {
+    margin : 1%;
+}
+.resumeLine {
+    height : .1vw;
+}
+#resumeName {
+    text-transform: uppercase;
+    font-family: monospace;
+    text-align: center;
+    font-size: 1.5vw;
+}
+#line2 {
+    font-family: monospace;
+    margin:0%;
+    text-align: center;
+}
+#line3 {
+    font-family: monospace;
+    margin:0%;
+    text-align: center;
+    margin-bottom: 2%;
 }
 
+/************************CONTACT*/
 #contact {
     padding-bottom : 1%;
 }
