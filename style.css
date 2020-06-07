@@ -312,6 +312,10 @@ ul {
 }
 
 /************************CONTACT*/
+#navigationBar:hover ~ #contact {
+    background-color : white;
+    color : black;
+}
 #contact {
     padding-bottom : 1vh;
     height : 80%;
