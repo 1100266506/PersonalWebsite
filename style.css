@@ -106,6 +106,7 @@ section:hover{
     transform: translateY(-50%);
     margin-left : 10%;
     margin-right : 45%;
+    width : 45vw;
 }
 #backgroundImage {
     background-image : url("./images/propic_biology.jpg");
@@ -149,7 +150,7 @@ section:hover{
     width : 30vw;
 }
 #aboutMeRight {
-    position: relative;
+    position: none;
     font-family: monospace;
     float : left;
     width : 35%;
@@ -225,13 +226,13 @@ hr {
     width : 50%;
 }
 .projectTitle {
-    position : relative;
+    position : none;
     font-family: monospace;
     font-weight: bold;
     font-size : 1vw;
 }
 ul {
-    position : relative;
+    position : none;
     text-align: left;
     font-family: monospace;
     font-size: .5vw;
@@ -244,6 +245,7 @@ ul {
     color : black;
 }
 #resumeContent {
+    position : none;
     margin-left:14%;
     margin-right : 14%;
     padding-bottom : 5%;
@@ -311,11 +313,11 @@ ul {
 
 /************************CONTACT*/
 #contact {
-    padding-bottom : 1%;
+    padding-bottom : 1vh;
     height : 80%;
 }
 #contactContent {
-    padding-top : 5%;
+    padding-top : 10vh;
     font-family: monospace;
     text-align: center;
 }
@@ -327,7 +329,7 @@ ul {
     margin : 0;
 }
 #socialMedia {
-    margin-top: 3%;
+    margin-top: 5vw;
     width : 100%;
 }
 .social {
@@ -339,7 +341,6 @@ ul {
 }
 #facebook {
     margin-left : 12.5%;
-
 }
 #instagram {
     margin-right : 12.5%;
@@ -350,5 +351,5 @@ ul {
     height : 10%;
     font-family: monospace;
     text-align: center;
-    padding-top : 1%;
+    padding-top : 1vw;
 }
