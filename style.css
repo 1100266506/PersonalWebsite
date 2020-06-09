@@ -217,6 +217,7 @@ hr {
     float : left;
     width : 33%;
     height : 60vh;
+    overflow : auto;
 }
 .project:hover {
     background-color : #B3A369;
@@ -231,14 +232,15 @@ hr {
     font-weight: bold;
     font-size : 1vw;
 }
+
 ul {
     position : none;
     text-align: left;
     font-family: monospace;
-    font-size: .5vw;
     width : 85%;
     margin : auto;
 }
+
 /********************RESUME*/
 #navigationBar:hover ~ #resume {
     background-color : white;
