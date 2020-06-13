@@ -284,6 +284,11 @@ ul {
     font-family: monospace;
     text-transform: uppercase;
 }
+.sectionDate {
+    font-weight : bold;
+    font-style : italic;
+    font-family: monospace;
+}
 .sectionPosition {
     font-weight: bold;
     font-style: italic;
